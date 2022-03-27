@@ -1,4 +1,4 @@
-# BMEG 310: Analysis of Breast Invasive Carcinoma (TCGA, PanCancer Atlas)
+# PharmaHacks 2022 Microbiome Disease prediction with XGBoost
 
 ## __repo link__: https://github.com/muntakimrafi/PharmaHacks2022_AR-r-OW
 
