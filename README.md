@@ -20,7 +20,7 @@ Also, we have the CPM (count per million) normalized train and test data (sum of
 
 The python library requirements are mentioned in requirements.txt
 
-Shinyapps folder contains an application that make prediction on a online platform.
+Shinyapps folder contains an application which allows end-users to take advantage of model prediction using a user-friendly GUI. 
 
 ## Discovery 
 
