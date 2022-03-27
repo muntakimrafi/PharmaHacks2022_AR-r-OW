@@ -14,6 +14,10 @@ We first perform an exploratory data analysis (see EDA notebook) where we build 
 
 We also have the trained model weight files saved in the repo (model_final.pkl -> trained on all bacteria ,  model_71_bacteria.pkl-> trained on enriched bacteria). 
 
+The differential enrichment analysis contains our differential analysis.
+
+Also, we have the CPM (count per million) normalized train and test data (sum of all the microorganisms in each sample can vary substantially which is not biologically significant and in fact an artifact of the technology used to collect the data).
+
 ## Discovery 
 
 During this challenge, we learned the value of statistical analysis for both validation and informing model architecture design. Statistical analysis both revealed the sparse structure of our dataset and key bacterial species within it. This allowed us to drastically reduce the features present in our model from 1094 to 71 (6.5%) while maintaining accuracy. This feature reduction has practical implications. It suggests an alternative metagenomic strategy of in-depth sampling of the 71 highly-informative bacteria, compared to shallowly sampling all 1094. It would also be interesting to follow up on these 71 species and identify their biological function.
