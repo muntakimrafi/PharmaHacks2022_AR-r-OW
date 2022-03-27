@@ -10,7 +10,7 @@ The human microbiome encompasses a diverse community of microorganisms living wi
 
 ## Navigating the repo
 
-We first perform an exploratory data analysis (see EDA notebook). We build inspiration to work with a model (see model notebook) that can handle the sparsity of the data. 
+We first perform an exploratory data analysis (see EDA notebook) where we build inspiration for a tree based approach. Then we go on to build our xgboost model (see model notebook) and see comparison between models trained using all bacteria and functionally enriched bacteria.
 
 ## Discovery 
 
